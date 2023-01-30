@@ -28,7 +28,7 @@ def recomend(movie):
 new_df=pickle.load(open('movies.pkl','rb'))
 
 # similarity_matrix...
-similarity_matrix=pickle.load(open('similarity.zip','rb'))
+similarity_matrix=pickle.load(open('similarity.pkl','rb'))
 
 # movies list....
 movies_list=new_df['title'].values

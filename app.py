@@ -37,7 +37,7 @@ movies_list=new_df['title'].values
 
 
 
-st.title("Movie Recomendation System")
+st.title("Movie Recomendation System (Baby It's only for U)")
 option = st.selectbox('Select a Movie',movies_list)
 
 
